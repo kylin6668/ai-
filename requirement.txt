@@ -1,0 +1,17 @@
+
+# -------- 核心框架 --------
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-core==0.3.75
+langchain-chroma==0.2.5
+langchain-text-splitters==0.3.11
+chromadb==1.0.20          # 向量库
+fastapi==0.116.1          # API 服务
+uvicorn[standard]==0.35.0 # ASGI 服务器
+
+# -------- LLM & Embedding --------
+zhipuai==2.1.5.20250825   # 智谱官方 SDK
+
+# -------- 数据处理 --------
+pandas==2.3.2
+python-dotenv==1.1.1      # 读取 .env
